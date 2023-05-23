@@ -1,2 +1,22 @@
-
+ #holder {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 10px;
+            width: 200px;
+            height: 200px;
+        }
+        
+        .grid-item {
+            background-color: transparent;
+            height: 100px;
+            text-align: center;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+        input[type="text"],
+        button {
+            margin-top: 10px;
+        }
 /* Your CSS Code here. */
